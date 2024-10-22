@@ -112,6 +112,9 @@ main .main-container .card .sostenibilità {
 main .main-container .card .sostenibilità.last {
   left: 0px;
 }
+main .main-container .card .description p:first-child {
+  font-size: 0.8rem;
+}
 
 main .main-container .card .description p:nth-child(2) {
  font-weight: 700;
@@ -132,8 +135,60 @@ main .main-container .card .description p span:last-child {
   text-decoration: line-through;
 }
 
-/* main .main-container .card .sostenibilità:nth-child(2){
-  left: 0;
-} */
-
 /* FINE MAIN */
+
+
+
+/* INIZIO FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+footer .footer-container .info #mark {
+  font-weight: 700;
+  padding: 10px;
+}
+
+footer .footer-container .info .legal ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+footer .footer-container .info .legal ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-container .info .social {
+  display: inline-block;
+}
+footer .footer-container .info .social {
+  font-weight: 500;
+  padding: 10px;
+}
+
+footer .footer-container .social .social-icons ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+
+footer .footer-container .social .social-icons ul li a i {
+  color: white;
+}
+
+
+/* FINE FOOTER */
