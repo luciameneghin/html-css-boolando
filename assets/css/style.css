@@ -18,8 +18,8 @@ body {
   position: fixed;
 } */
 
-
 header .header-container {
+  display: flex;
   flex-wrap: wrap;
   position: fixed;
   width: 100%;
@@ -70,13 +70,13 @@ main .main-container {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 1000px;
+  max-width: 1000px;
   padding-top: 130px;
 }
 
 main .main-container .card {
   position: relative;
-  width: 33%;
+  width: 330px;
   padding-bottom: 30px;
   cursor: pointer;
 }
