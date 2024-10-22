@@ -18,22 +18,32 @@ body {
   position: fixed;
 } */
 
+
 header .header-container {
   flex-wrap: wrap;
-  max-width: 100%;
-  position: relative;
-  background-color: #FE6901;  
+  position: fixed;
+  width: 100%;
+  min-height: 50px;
+  background-color: #FE6901;
+  z-index: 1;
 }
 
 header .header-container .menù {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   margin: 0 auto;
   width: 1000px;
 }
-
-header .header-container .menù .genere a{
+header .header-container .menù .genere ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+}
+header .header-container .menù .genere ul li a{
   color: white;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 header .header-container .menù .logo img {
@@ -42,7 +52,13 @@ header .header-container .menù .logo img {
   margin: 20px;
 }
 
-header .header-container .menù .icons a{
+header .header-container .menù .icons ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+}
+header .header-container .menù .icons i{
   color: white;
 }
 
@@ -55,7 +71,7 @@ main .main-container {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 1000px;
-  padding-top: 50px;
+  padding-top: 130px;
 }
 
 main .main-container .card {
@@ -134,7 +150,6 @@ main .main-container .card .description p span:first-child {
 main .main-container .card .description p span:last-child {
   text-decoration: line-through;
 }
-
 /* FINE MAIN */
 
 
