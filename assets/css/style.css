@@ -70,12 +70,25 @@ main .main-container .card img{
   margin: 2px;
 }
 
+main .main-container .card .img-hover {
+  position: absolute;
+  display: none;
+  top: 0;
+}
+
+main .main-container .card:hover .img-hover {
+  display: block;
+}
+
 main .main-container .card .heart {
   position: absolute;
   right: 0;
   top: 10px;
   background-color: white;
   padding: 15px;
+}
+main .main-container .card .heart:hover {
+  color: red;
 }
 
 main .main-container .card .discount {
