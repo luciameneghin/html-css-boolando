@@ -59,12 +59,68 @@ main .main-container {
 }
 
 main .main-container .card {
+  position: relative;
   width: 33%;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 
 main .main-container .card img{
   width: 320px;
   margin: 2px;
 }
+
+main .main-container .card .heart {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background-color: white;
+  padding: 15px;
+}
+
+main .main-container .card .discount {
+  position: absolute;
+  left: 0;
+  bottom: 130px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+
+main .main-container .card .sostenibilità {
+  position: absolute;
+  left: 60px;
+  bottom: 130px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+}
+
+main .main-container .card .sostenibilità.last {
+  left: 0px;
+}
+
+main .main-container .card .description p:nth-child(2) {
+ font-weight: 700;
+}
+
+main .main-container .card .description .no-disc {
+  color: red;
+  font-weight: 600;
+}
+
+main .main-container .card .description p span:first-child {
+  color: red;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+main .main-container .card .description p span:last-child {
+  text-decoration: line-through;
+}
+
+/* main .main-container .card .sostenibilità:nth-child(2){
+  left: 0;
+} */
+
 /* FINE MAIN */
